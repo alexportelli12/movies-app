@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+@import 'base/variables';
+@import 'bulma/bulma';
+
+@import '../../../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+
+// Trumps
+@import 'trumps/cards';
+@import 'trumps/tabs';
+@import 'trumps/hero';
+@import 'trumps/images';
+
+// Movies
+@import 'movies/movie-detail';

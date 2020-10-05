@@ -1,0 +1,18 @@
+@import '../base/config';
+@import '../base/helpers';
+
+#movie-detail {
+
+    .hero {
+        .hero-body {
+            .back-button {
+                position: absolute;
+                top: -240%;
+                font-size: $font-larger;
+                color: $brand-link;
+                cursor: pointer;
+            }
+        }
+    }
+
+}

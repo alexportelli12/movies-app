@@ -1,0 +1,39 @@
+@import '../base/config';
+@import '../base/helpers';
+
+.tabs {
+
+    &::-webkit-scrollbar{
+        width: 0px;
+        background: transparent;
+    }
+
+    ul {
+        border-bottom: none;
+
+        li {
+            padding: $padding-half $padding-large $padding-half 0;
+            position: relative;
+            font-size: $font-default;
+            color: $brand-primary;
+            cursor: pointer;
+
+            &.is-active {
+                color: $brand-info;
+                font-weight: $bold;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    width: 50%;
+                    height: $padding-fourth;
+                    background: $brand-info;
+                    border-radius: $padding-default;
+                    bottom: 0;
+                    left: 0;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+}

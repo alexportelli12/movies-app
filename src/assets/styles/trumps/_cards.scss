@@ -1,0 +1,18 @@
+@import '../base/config';
+@import '../base/helpers';
+
+.card {
+    box-shadow: none;
+
+    .card-image {
+        border-radius: $image-border-radius;
+        overflow: hidden;
+    }
+
+    .card-content{
+        padding: $padding-half $padding-12;
+        font-weight: 500;
+        font-size: $font-default;
+        line-height: $font-default-larger;
+    }
+}

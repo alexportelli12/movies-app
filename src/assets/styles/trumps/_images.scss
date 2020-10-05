@@ -1,0 +1,9 @@
+@import '../base/config';
+@import '../base/helpers';
+
+figure.image {
+    &.rounded {
+        border-radius: $image-border-radius;
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,13 @@
+@import 'config';
+@import 'helpers';
+
+$family-sans-serif: $font-family;
+
+$primary: $brand-primary;
+$link: $brand-link;
+$info: $brand-info;
+$text: $brand-primary;
+
+$radius-small: $padding-fourth;
+$radius: $padding-half;
+$radius-large: $padding-default;

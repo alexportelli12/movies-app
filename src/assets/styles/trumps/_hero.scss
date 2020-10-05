@@ -1,0 +1,29 @@
+@import '../base/config';
+@import '../base/helpers';
+
+.hero {
+    position: relative;
+
+    &.is-medium {
+        .hero-body {
+            padding: 15rem $padding-large $padding-xl $padding-large;
+            background-position: top;
+            background-size: cover;
+            position: relative;
+
+            &:before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent);
+            }
+        }
+    }
+
+    .title {
+        margin-bottom: $padding-default;
+    }
+}
